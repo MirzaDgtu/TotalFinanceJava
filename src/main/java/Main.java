@@ -15,6 +15,9 @@ public class Main{
         Nacl nacl = new Income();
 
         System.out.println("Заполните накладную!");
+
+        System.out.println("Количество магазинов " + shop.getCountShop());
+
         nacl.createNaclPerform(shop.toMap(), scanner.nextDouble());
     }
 }

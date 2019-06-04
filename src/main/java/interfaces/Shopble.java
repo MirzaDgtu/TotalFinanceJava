@@ -12,5 +12,5 @@ public interface Shopble {
     public void toFile();
     public void readFile() throws IOException, ClassNotFoundException;
     public Map<Integer, String> toMap() throws IOException, ClassNotFoundException;
-
+    public int getCountShop();
 }

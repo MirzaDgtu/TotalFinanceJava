@@ -57,6 +57,10 @@ public class DataBase implements Shopble, Serializable {
         }
     }
 
+    @Override
+    public int getCountShop() {
+        return shopBase.size();
+    }
 
     @Override
     public void getDetail(String name) {
